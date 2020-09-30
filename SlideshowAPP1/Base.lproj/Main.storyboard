@@ -112,9 +112,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2ER-5F-hR7">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2ER-5F-hR7">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wv3-mu-Q2D">
                                 <rect key="frame" x="152" y="624" width="110" height="42"/>
@@ -133,6 +132,10 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="2ER-5F-hR7" firstAttribute="bottom" secondItem="UUi-oZ-Enb" secondAttribute="bottom" id="PWa-Sa-CDI"/>
+                            <constraint firstItem="2ER-5F-hR7" firstAttribute="leading" secondItem="UUi-oZ-Enb" secondAttribute="leading" id="S8F-We-UzE"/>
+                            <constraint firstItem="2ER-5F-hR7" firstAttribute="trailing" secondItem="UUi-oZ-Enb" secondAttribute="trailing" id="e2t-zG-DfX"/>
+                            <constraint firstItem="2ER-5F-hR7" firstAttribute="top" secondItem="UUi-oZ-Enb" secondAttribute="top" id="ebW-Wd-vO2"/>
                             <constraint firstItem="wv3-mu-Q2D" firstAttribute="centerX" secondItem="aPL-3s-8BZ" secondAttribute="centerX" id="ocS-XZ-5De"/>
                             <constraint firstAttribute="bottom" secondItem="wv3-mu-Q2D" secondAttribute="bottom" constant="50" id="wdf-5T-c2v"/>
                         </constraints>
@@ -146,7 +149,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FYp-L8-iHO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="09e-7b-fbW" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="837.68115942028987" y="116.51785714285714"/>
+            <point key="canvasLocation" x="837.68115942028987" y="115.7608695652174"/>
         </scene>
     </scenes>
 </document>
